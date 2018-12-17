@@ -1,0 +1,40 @@
+html,body{height:100%;width: 100%;}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl,
+dt, dd, ul, ol, li, pre, figure, form, fieldset, legend,
+button, input, textarea, select th, td {margin: 0;padding: 0;}
+nav {width:100%;background:#194397;z-index:3;}
+#nav_test{height:180px;background-color:black;width:100%;z-index:2;position:absolute;top:50px;opacity: 0.7;}
+.header_nav {position: absolute;top: 0;left: 331px;}
+.header_nav dl{display: block;position: relative;float: left;z-index:3;}
+/*.header_nav dl:hover{height:199px;background:gray;}*/
+.header_nav dt{display: block;height:50px;text-align: center;line-height: 50px;color:#fff;white-space:nowrap;padding-left:6px;padding-right:6px;}
+/*.header_nav dt:hover{background-color: skyblue;}*/
+.header_nav dd{display: none;text-align: center;height:30px;line-height:30px;font-size:14px;white-space:nowrap;}
+#form{display: none;text-align: center;height:30px;line-height:30px;font-size:14px;}
+.header_nav dd:hover{display:block;background-color:skyblue;z-index:3;text-align: center;height:30px;line-height:30px;font-size:12px;}
+.header_nav dl:hover dd{display:block;}
+#user{position: absolute;top:0;font-size:14px;right:10px;color:white;height:50px;text-align: center;line-height: 50px;}
+#user_button{color:white;z-index:3;position:absolute;top:45px;right:5px;width:130px;height:50px;background-color: black;opacity: 0.9;}
+#user_button p{margin-left:5px;}
+#user img{width:15px;height:15px;margin-left:2px;}
+.report-form{width: 100%;height:100%;}
+.swiper-container {width: 100%;height:100%;z-index:0;}
+iframe{margin: 0;padding:0;width: 100%;border:none;}
+.swiper-container .swiper-wrapper{width: 100%;height:100%;}
+.swiper-container .swiper-wrapper .swiper-slide {width: 100%;height:100%;}
+/*.swiper-container .swiper-button-next:hover{display:block;}*/
+/*.swiper-container .swiper-button-prev:hover{display:block;}*/
+@media screen and (max-width: 1000px) {
+    .header_nav dl {display:none;}
+    #nav_test {display:none;}
+}
+@media screen and (max-width: 1035px) {
+    #user {display:none;}
+}
+
+.blue{
+    background-color:skyblue;
+}
+.black{
+    background-color:black;
+}
